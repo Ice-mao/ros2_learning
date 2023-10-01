@@ -1,0 +1,4 @@
+source;share/interfaces_more/environment/ament_prefix_path.sh
+source;share/interfaces_more/environment/library_path.sh
+source;share/interfaces_more/environment/path.sh
+source;share/interfaces_more/environment/pythonpath.sh

@@ -1,0 +1,38 @@
+[2.589s] Invoking command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/src/py_parameters': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/prefix_override:/home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_parameters build --build-base /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/build install --record /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/install.log --single-version-externally-managed
+[3.177s] running egg_info
+[3.178s] creating ../../build/py_parameters/py_parameters.egg-info
+[3.178s] writing ../../build/py_parameters/py_parameters.egg-info/PKG-INFO
+[3.179s] writing dependency_links to ../../build/py_parameters/py_parameters.egg-info/dependency_links.txt
+[3.179s] writing entry points to ../../build/py_parameters/py_parameters.egg-info/entry_points.txt
+[3.179s] writing requirements to ../../build/py_parameters/py_parameters.egg-info/requires.txt
+[3.180s] writing top-level names to ../../build/py_parameters/py_parameters.egg-info/top_level.txt
+[3.182s] writing manifest file '../../build/py_parameters/py_parameters.egg-info/SOURCES.txt'
+[3.186s] reading manifest file '../../build/py_parameters/py_parameters.egg-info/SOURCES.txt'
+[3.187s] writing manifest file '../../build/py_parameters/py_parameters.egg-info/SOURCES.txt'
+[3.187s] running build
+[3.188s] running build_py
+[3.188s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/build
+[3.188s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/build/lib
+[3.188s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/build/lib/py_parameters
+[3.188s] copying py_parameters/__init__.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/build/lib/py_parameters
+[3.189s] copying py_parameters/py_parameters_node.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/build/lib/py_parameters
+[3.189s] running install
+[3.189s] running install_lib
+[3.190s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/lib/python3.10/site-packages/py_parameters
+[3.190s] copying /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/build/lib/py_parameters/__init__.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/lib/python3.10/site-packages/py_parameters
+[3.191s] copying /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/build/lib/py_parameters/py_parameters_node.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/lib/python3.10/site-packages/py_parameters
+[3.192s] byte-compiling /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/lib/python3.10/site-packages/py_parameters/__init__.py to __init__.cpython-310.pyc
+[3.192s] byte-compiling /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/lib/python3.10/site-packages/py_parameters/py_parameters_node.py to py_parameters_node.cpython-310.pyc
+[3.192s] running install_data
+[3.193s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/share/ament_index
+[3.194s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/share/ament_index/resource_index
+[3.194s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/share/ament_index/resource_index/packages
+[3.194s] copying resource/py_parameters -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/share/ament_index/resource_index/packages
+[3.194s] copying package.xml -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/share/py_parameters
+[3.195s] copying launch/py_parameters_launch.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/share/py_parameters
+[3.195s] running install_egg_info
+[3.206s] Copying ../../build/py_parameters/py_parameters.egg-info to /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/lib/python3.10/site-packages/py_parameters-0.0.0-py3.10.egg-info
+[3.206s] running install_scripts
+[3.240s] Installing minimal_param_node script to /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/lib/py_parameters
+[3.241s] writing list of installed files to '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/install.log'
+[3.365s] Invoked command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/src/py_parameters' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/prefix_override:/home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_parameters build --build-base /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/build install --record /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_parameters/install.log --single-version-externally-managed

@@ -1,0 +1,49 @@
+[0.461s] Invoking command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/icemao/Documents/ROS/ROS2/ros2_learning/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base
+[2.073s] -- The C compiler identification is GNU 11.4.0
+[2.074s] -- The CXX compiler identification is GNU 11.4.0
+[2.074s] -- Detecting C compiler ABI info
+[2.075s] -- Detecting C compiler ABI info - done
+[2.076s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.076s] -- Detecting C compile features
+[2.076s] -- Detecting C compile features - done
+[2.077s] -- Detecting CXX compiler ABI info
+[2.077s] -- Detecting CXX compiler ABI info - done
+[2.078s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.079s] -- Detecting CXX compile features
+[2.079s] -- Detecting CXX compile features - done
+[2.080s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.080s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.081s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.083s] -- Configuring done
+[2.083s] -- Generating done
+[2.083s] -- Build files have been written to: /home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base
+[2.098s] Invoked command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/icemao/Documents/ROS/ROS2/ros2_learning/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base
+[2.099s] Invoking command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base -- -j16 -l16
+[2.143s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[10.834s] [100%] [32m[1mLinking CXX executable area_node[0m
+[11.416s] [100%] Built target area_node
+[11.440s] Invoked command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base -- -j16 -l16
+[11.517s] Invoking command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base
+[11.534s] -- Install configuration: ""
+[11.535s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/lib/polygon_base/area_node
+[11.541s] -- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/lib/polygon_base/area_node" to ""
+[11.541s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/include
+[11.541s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/include/polygon_base
+[11.542s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[11.542s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[11.542s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[11.543s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[11.543s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[11.543s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/environment/path.sh
+[11.544s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/environment/path.dsv
+[11.544s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/local_setup.bash
+[11.544s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/local_setup.sh
+[11.544s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/local_setup.zsh
+[11.545s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/local_setup.dsv
+[11.545s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/package.dsv
+[11.545s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[11.545s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.545s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[11.546s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[11.546s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/package.xml
+[11.548s] Invoked command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base

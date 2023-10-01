@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/icemao/Documents/ROS/ROS2/ros_test/install/examples_rclcpp_cbg_executor/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/icemao/Documents/ROS/ROS2/ros_test/src/examples/rclcpp/composition/minimal_composition/include/**",
+                "/home/icemao/Documents/ROS/ROS2/ros_test/src/examples/rclcpp/executors/cbg_executor/include/**",
+                "/home/icemao/Documents/ROS/ROS2/ros_test/src/examples/rclcpp/wait_set/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

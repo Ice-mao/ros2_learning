@@ -1,0 +1,41 @@
+[1.094s] Invoking command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/src/py_action': AMENT_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/prefix_override:/home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/lib/python3.10/site-packages:/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_action build --build-base /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/build install --record /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/install.log --single-version-externally-managed
+[1.450s] running egg_info
+[1.450s] creating ../../build/py_action/py_action.egg-info
+[1.451s] writing ../../build/py_action/py_action.egg-info/PKG-INFO
+[1.451s] writing dependency_links to ../../build/py_action/py_action.egg-info/dependency_links.txt
+[1.451s] writing entry points to ../../build/py_action/py_action.egg-info/entry_points.txt
+[1.451s] writing requirements to ../../build/py_action/py_action.egg-info/requires.txt
+[1.451s] writing top-level names to ../../build/py_action/py_action.egg-info/top_level.txt
+[1.453s] writing manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+[1.456s] reading manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+[1.457s] writing manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+[1.457s] running build
+[1.457s] running build_py
+[1.457s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/build
+[1.457s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/build/lib
+[1.458s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/build/lib/py_action
+[1.458s] copying py_action/__init__.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/build/lib/py_action
+[1.458s] copying py_action/fibonacci_action_server.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/build/lib/py_action
+[1.458s] copying py_action/fibonacci_action_client.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/build/lib/py_action
+[1.458s] running install
+[1.458s] running install_lib
+[1.459s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/lib/python3.10/site-packages/py_action
+[1.460s] copying /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/build/lib/py_action/__init__.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/lib/python3.10/site-packages/py_action
+[1.460s] copying /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/build/lib/py_action/fibonacci_action_server.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/lib/python3.10/site-packages/py_action
+[1.460s] copying /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/build/lib/py_action/fibonacci_action_client.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/lib/python3.10/site-packages/py_action
+[1.460s] byte-compiling /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/lib/python3.10/site-packages/py_action/__init__.py to __init__.cpython-310.pyc
+[1.461s] byte-compiling /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/lib/python3.10/site-packages/py_action/fibonacci_action_server.py to fibonacci_action_server.cpython-310.pyc
+[1.461s] byte-compiling /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/lib/python3.10/site-packages/py_action/fibonacci_action_client.py to fibonacci_action_client.cpython-310.pyc
+[1.462s] running install_data
+[1.463s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/share/ament_index
+[1.463s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/share/ament_index/resource_index
+[1.463s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/share/ament_index/resource_index/packages
+[1.463s] copying resource/py_action -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/share/ament_index/resource_index/packages
+[1.463s] copying package.xml -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/share/py_action
+[1.464s] running install_egg_info
+[1.465s] Copying ../../build/py_action/py_action.egg-info to /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/lib/python3.10/site-packages/py_action-0.0.0-py3.10.egg-info
+[1.466s] running install_scripts
+[1.491s] Installing client script to /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/lib/py_action
+[1.491s] Installing server script to /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/lib/py_action
+[1.491s] writing list of installed files to '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/install.log'
+[1.526s] Invoked command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/src/py_action' returned '0': AMENT_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/prefix_override:/home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_action/lib/python3.10/site-packages:/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_action build --build-base /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/build install --record /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_action/install.log --single-version-externally-managed

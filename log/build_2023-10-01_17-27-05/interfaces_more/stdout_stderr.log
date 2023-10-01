@@ -1,0 +1,232 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /home/icemao/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /home/icemao/anaconda3/lib/libpython3.9.so (found suitable version "3.9.7", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /home/icemao/anaconda3/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /home/icemao/anaconda3/include/python3.9
+-- Using PYTHON_LIBRARIES: /home/icemao/anaconda3/lib/libpython3.9.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/icemao/Documents/ROS/ROS2/ros2_learning/build/interfaces_more
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target ament_cmake_python_copy_interfaces_more
+running egg_info
+creating interfaces_more.egg-info
+writing interfaces_more.egg-info/PKG-INFO
+writing dependency_links to interfaces_more.egg-info/dependency_links.txt
+writing top-level names to interfaces_more.egg-info/top_level.txt
+writing manifest file 'interfaces_more.egg-info/SOURCES.txt'
+reading manifest file 'interfaces_more.egg-info/SOURCES.txt'
+writing manifest file 'interfaces_more.egg-info/SOURCES.txt'
+[  9%] [32mBuilding C object CMakeFiles/interfaces_more__rosidl_generator_c.dir/rosidl_generator_c/interfaces_more/msg/detail/address_book__functions.c.o[0m
+[  9%] Built target interfaces_more__cpp
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 18%] Built target ament_cmake_python_build_interfaces_more_egg
+[ 21%] [32m[1mLinking C shared library libinterfaces_more__rosidl_generator_c.so[0m
+[ 21%] Built target interfaces_more__rosidl_generator_c
+[ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/interfaces_more__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_more/msg/address_book__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/interfaces_more__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_more/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/interfaces_more__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_more/msg/detail/address_book__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/interfaces_more__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces_more/msg/detail/address_book__type_support_c.cpp.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/interfaces_more__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_more/msg/detail/address_book__type_support.c.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/interfaces_more__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces_more/msg/address_book__type_support.cpp.o[0m
+[ 51%] [32m[1mLinking C shared library libinterfaces_more__rosidl_typesupport_introspection_c.so[0m
+[ 54%] [32m[1mLinking CXX shared library libinterfaces_more__rosidl_typesupport_c.so[0m
+[ 54%] Built target interfaces_more__rosidl_typesupport_introspection_c
+[ 54%] Built target interfaces_more__rosidl_typesupport_c
+[ 57%] [32m[1mLinking CXX shared library libinterfaces_more__rosidl_typesupport_cpp.so[0m
+[ 57%] Built target interfaces_more__rosidl_typesupport_cpp
+[ 60%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library libinterfaces_more__rosidl_typesupport_fastrtps_c.so[0m
+[ 66%] [32m[1mLinking CXX shared library libinterfaces_more__rosidl_typesupport_introspection_cpp.so[0m
+[ 69%] [32m[1mLinking CXX shared library libinterfaces_more__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 69%] Built target interfaces_more__rosidl_typesupport_fastrtps_c
+[ 69%] Built target interfaces_more__rosidl_typesupport_introspection_cpp
+[ 69%] Built target interfaces_more__rosidl_typesupport_fastrtps_cpp
+[ 69%] Built target interfaces_more
+[ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 72%] Built target interfaces_more__py
+[ 75%] [32mBuilding C object CMakeFiles/interfaces_more__rosidl_generator_py.dir/rosidl_generator_py/interfaces_more/msg/_address_book_s.c.o[0m
+[ 78%] [32m[1mLinking C shared library rosidl_generator_py/interfaces_more/libinterfaces_more__rosidl_generator_py.so[0m
+[ 78%] Built target interfaces_more__rosidl_generator_py
+[ 81%] [32mBuilding C object CMakeFiles/interfaces_more__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces_more/_interfaces_more_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/interfaces_more__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces_more/_interfaces_more_s.ep.rosidl_typesupport_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/interfaces_more__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces_more/_interfaces_more_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/interfaces_more/interfaces_more_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/interfaces_more/interfaces_more_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so[0m
+[ 93%] Built target interfaces_more__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target interfaces_more__rosidl_typesupport_c__pyext
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaces_more/interfaces_more_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so[0m
+[ 96%] Built target interfaces_more__rosidl_typesupport_fastrtps_c__pyext
+[100%] [32m[1mLinking CXX executable publish_address_book[0m
+[100%] Built target publish_address_book
+-- Install configuration: ""
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/ament_index/resource_index/rosidl_interfaces/interfaces_more
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__type_support.h
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__functions.h
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__functions.c
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__struct.h
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/address_book.h
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/environment/library_path.sh
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/environment/library_path.dsv
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_generator_c.so
+-- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__type_support.c
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_typesupport_c.so
+-- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/address_book.hpp
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__struct.hpp
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__traits.hpp
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__builder.hpp
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/dds_fastrtps
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg
+-- Up-to-date: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/include/interfaces_more/interfaces_more/msg/detail/address_book__type_support.cpp
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/environment/pythonpath.sh
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/environment/pythonpath.dsv
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more-0.0.0-py3.10.egg-info
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/libinterfaces_more__rosidl_generator_py.so
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/__init__.py
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/_interfaces_more_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/_interfaces_more_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/interfaces_more_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/interfaces_more_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/interfaces_more_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/msg
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/msg/__init__.py
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/msg/_address_book.py
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/msg/_address_book_s.c
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/_interfaces_more_s.ep.rosidl_typesupport_c.c
+Listing '/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more'...
+Compiling '/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/__init__.py'...
+Listing '/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/msg'...
+Compiling '/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/msg/__init__.py'...
+Compiling '/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/msg/_address_book.py'...
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/interfaces_more_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so
+-- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/interfaces_more_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so" to ""
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/interfaces_more_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so
+-- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/interfaces_more_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so" to ""
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/interfaces_more_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so
+-- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/local/lib/python3.10/dist-packages/interfaces_more/interfaces_more_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so" to ""
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_generator_py.so
+-- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/libinterfaces_more__rosidl_generator_py.so" to ""
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/msg/AddressBook.idl
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/msg/AddressBook.msg
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/interfaces_more/publish_address_book
+-- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/lib/interfaces_more/publish_address_book" to ""
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/ament_index/resource_index/package_run_dependencies/interfaces_more
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/ament_index/resource_index/parent_prefix_path/interfaces_more
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/environment/ament_prefix_path.sh
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/environment/ament_prefix_path.dsv
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/environment/path.sh
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/environment/path.dsv
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/local_setup.bash
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/local_setup.sh
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/local_setup.zsh
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/local_setup.dsv
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/package.dsv
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/ament_index/resource_index/packages/interfaces_more
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/export_interfaces_more__rosidl_generator_cExport.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/export_interfaces_more__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/export_interfaces_more__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/export_interfaces_more__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/interfaces_more__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/interfaces_more__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/interfaces_more__rosidl_typesupport_cExport.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/interfaces_more__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/export_interfaces_more__rosidl_generator_cppExport.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/export_interfaces_more__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/export_interfaces_more__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/interfaces_more__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/interfaces_more__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/interfaces_more__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/interfaces_more__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/export_interfaces_more__rosidl_generator_pyExport.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/export_interfaces_more__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/interfaces_moreConfig.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/cmake/interfaces_moreConfig-version.cmake
+-- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/interfaces_more/share/interfaces_more/package.xml

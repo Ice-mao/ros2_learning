@@ -1,0 +1,68 @@
+[0.125s] Invoking command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_plugins': AMENT_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/icemao/Documents/ROS/ROS2/ros2_learning/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins
+[0.218s] -- The C compiler identification is GNU 11.4.0
+[0.334s] -- The CXX compiler identification is GNU 11.4.0
+[0.348s] -- Detecting C compiler ABI info
+[0.503s] -- Detecting C compiler ABI info - done
+[0.527s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.529s] -- Detecting C compile features
+[0.530s] -- Detecting C compile features - done
+[0.538s] -- Detecting CXX compiler ABI info
+[0.684s] -- Detecting CXX compiler ABI info - done
+[0.711s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.712s] -- Detecting CXX compile features
+[0.713s] -- Detecting CXX compile features - done
+[0.719s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.123s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.297s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.310s] -- Found polygon_base: 0.0.0 (/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base/share/polygon_base/cmake)
+[1.315s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.421s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.565s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.565s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/icemao/Documents/ROS/ROS2/ros2_learning/src/polygon_plugins/include>
+[1.565s] -- Configured cppcheck exclude dirs and/or files: 
+[1.567s] -- Added test 'lint_cmake' to check CMake code style
+[1.569s] -- Added test 'uncrustify' to check C / C++ code style
+[1.570s] -- Configured uncrustify additional arguments: 
+[1.571s] -- Added test 'xmllint' to check XML markup files
+[1.578s] -- Configuring done
+[1.591s] -- Generating done
+[1.594s] -- Build files have been written to: /home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_plugins
+[1.608s] Invoked command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/icemao/Documents/ROS/ROS2/ros2_learning/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins
+[1.609s] Invoking command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_plugins': AMENT_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_plugins -- -j16 -l16
+[1.695s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[2.825s] [100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[2.956s] [100%] Built target polygon_plugins
+[2.971s] Invoked command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_plugins -- -j16 -l16
+[3.005s] Invoking command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_plugins': AMENT_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_plugins
+[3.016s] -- Install configuration: ""
+[3.016s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[3.016s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/include
+[3.016s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/include/polygon_plugins
+[3.017s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[3.017s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[3.017s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/lib/libpolygon_plugins.so
+[3.018s] -- Set runtime path of "/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+[3.018s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+[3.018s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+[3.018s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[3.019s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[3.019s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[3.019s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[3.020s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[3.020s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[3.020s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[3.020s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[3.021s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[3.021s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[3.021s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/package.dsv
+[3.021s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[3.022s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[3.022s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+[3.023s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+[3.023s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.023s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[3.024s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[3.024s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[3.024s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[3.024s] -- Installing: /home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_plugins/share/polygon_plugins/package.xml
+[3.027s] Invoked command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/install/polygon_base:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_plugins

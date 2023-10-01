@@ -1,0 +1,10 @@
+/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base/CMakeFiles/uninstall.dir
+/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base/CMakeFiles/polygon_base_uninstall.dir
+/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base/CMakeFiles/area_node.dir
+/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base/CMakeFiles/test.dir
+/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base/CMakeFiles/edit_cache.dir
+/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base/CMakeFiles/rebuild_cache.dir
+/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base/CMakeFiles/list_install_components.dir
+/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base/CMakeFiles/install.dir
+/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base/CMakeFiles/install/local.dir
+/home/icemao/Documents/ROS/ROS2/ros2_learning/build/polygon_base/CMakeFiles/install/strip.dir

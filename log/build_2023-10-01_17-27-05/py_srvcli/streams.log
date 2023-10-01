@@ -1,0 +1,41 @@
+[2.406s] Invoking command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/src/py_srvcli': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/prefix_override:/home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/build install --record /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/install.log --single-version-externally-managed
+[3.052s] running egg_info
+[3.053s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[3.054s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[3.054s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[3.055s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[3.055s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[3.055s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[3.068s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.068s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.068s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.069s] running build
+[3.069s] running build_py
+[3.069s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/build
+[3.069s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/build/lib
+[3.069s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/build/lib/py_srvcli
+[3.069s] copying py_srvcli/__init__.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/build/lib/py_srvcli
+[3.070s] copying py_srvcli/service_member_function.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/build/lib/py_srvcli
+[3.070s] copying py_srvcli/client_member_function.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/build/lib/py_srvcli
+[3.070s] running install
+[3.070s] running install_lib
+[3.074s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[3.074s] copying /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[3.074s] copying /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[3.075s] copying /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[3.075s] byte-compiling /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[3.075s] byte-compiling /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[3.075s] byte-compiling /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[3.076s] running install_data
+[3.076s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/share/ament_index
+[3.076s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/share/ament_index/resource_index
+[3.077s] creating /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/share/ament_index/resource_index/packages
+[3.077s] copying resource/py_srvcli -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/share/ament_index/resource_index/packages
+[3.077s] copying package.xml -> /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/share/py_srvcli
+[3.077s] running install_egg_info
+[3.079s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[3.081s] running install_scripts
+[3.119s] Installing client script to /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/lib/py_srvcli
+[3.120s] Installing server script to /home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/lib/py_srvcli
+[3.121s] writing list of installed files to '/home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/install.log'
+[3.354s] Invoked command in '/home/icemao/Documents/ROS/ROS2/ros2_learning/src/py_srvcli' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/prefix_override:/home/icemao/Documents/ROS/ROS2/ros2_learning/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/build install --record /home/icemao/Documents/ROS/ROS2/ros2_learning/build/py_srvcli/install.log --single-version-externally-managed

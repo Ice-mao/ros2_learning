@@ -1,0 +1,9 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/icemao/Documents/ROS/ROS2/ros2_learning/src/interfaces:msg/Num.msg",
+    "/home/icemao/Documents/ROS/ROS2/ros2_learning/src/interfaces:msg/Sphere.msg",
+    "/home/icemao/Documents/ROS/ROS2/ros2_learning/src/interfaces:srv/AddThreeInts.srv",
+    "/home/icemao/Documents/ROS/ROS2/ros2_learning/src/interfaces:action/Fibonacci.action"
+  ]
+}
