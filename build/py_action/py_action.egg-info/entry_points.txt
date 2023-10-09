@@ -1,4 +1,0 @@
-[console_scripts]
-client = py_action.fibonacci_action_client:main
-server = py_action.fibonacci_action_server:main
-
